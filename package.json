@@ -21,6 +21,7 @@
     "pug": "^3.0.2",
     "sequelize": "^6.26.0",
     "sequelize-cli": "^6.5.2",
+    "serve-favicon": "^2.5.0",
     "validator": "^13.9.0"
   },
   "devDependencies": {},

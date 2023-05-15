@@ -7,6 +7,7 @@ require("dotenv").config({
 const cors = require("cors");
 const path = require("path");
 const express = require("express");
+const favicon = require('serve-favicon');
 
 const app = express();
 app.use(cors());
@@ -19,6 +20,7 @@ global.server_url = process.env.APP_URL;
 app.use(express.json()); // for parsing application/json
 app.use(express.urlencoded({ extended: false })); // for parsing application/x-www-form-urlencoded
 app.use(require("./src/services"));
+app.use(favicon(__dirname + '/public/favicon.png'));
 
 //set public folder path
 app.use(express.static(__dirname + "/public"));
