@@ -1,0 +1,83 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+
+:root {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background: #ffffff;
+    color: #444444;
+    letter-spacing: 0.4px;
+}
+
+a {
+    color: #4154f1;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+}
+
+a:hover {
+    color: #717ff5;
+    text-decoration: none;
+}
+
+
+p {
+    color: #1a1a1a;
+    font-size: 16px;
+}
+#main {
+    margin-top: 76px;
+    padding: 0px 30px 20px 30px;
+    transition: all 0.3s;
+}
+.success-email-template {
+    margin: 0px;
+    background-color: #f2f3f8;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.success-email-tbl {
+    background-color: #f2f3f8;
+    max-width: 670px;
+    margin: 0 auto;
+}
+.success-email-td3 {
+    padding: 0 35px;
+}
+.success-email-text {
+    color: #1e1e2d;
+  
+    margin: 0;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+}
+.success-email-msg {
+    color: #455056;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+}
+.success-email-login {
+    background: #000;
+    text-decoration: none !important;
+    font-weight: 500;
+    margin-top: 35px;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 24px;
+    display: inline-block;
+    border-radius: 50px;
+    transition: all 0.3s;
+    border: none;
+}
+.card{
+    background-color: #ffffff;
+    padding: 10px;
+}

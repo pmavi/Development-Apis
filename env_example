@@ -1,0 +1,25 @@
+
+NODE_ENV=development
+
+http_port=8001
+
+DB_HOST=localhost
+DB_SERVER=localhost
+DB_DATABASE=sample-test
+DB_USERNAME=postgres
+DB_PASSWORD=postgres@12345
+DB_DIALECT=postgres
+
+APP_URL=http://localhost:8001
+
+JWT_SECRET_TOKEN=P5&A%R3s1Z3Ea!dN@n!T3R7A
+
+SESSION_SECRET=M7&B%R2s1X3Ea!dN@c!F2D3C
+
+MAIL_PORT=2525
+MAIL_HOST=smtp.mailtrap.io
+MAIL_USERNAME=4576aaf7e4e602
+MAIL_PASSWORD=9556557113e7b8
+MAIL_FROM_NAME="SAMPLE APP"
+MAIL_FROM_ADDRESS="mavipreet22@gmail.com"
+
