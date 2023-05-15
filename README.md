@@ -33,10 +33,7 @@ npx sequelize db:migrate:undo:all
 npx sequelize db:migrate
 ```
 
-### Created Database Seed
-```
-npx sequelize db:seed:all
-```
+
 ### -----------------------------Basic Api Instructions---------------------
 
 ``` Created the following authentication apis
